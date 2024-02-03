@@ -7,8 +7,8 @@ import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
-import { Fawebsite } from '@react-icons/all-files/fa/FaGlobe'
-import { Faemail } from '@react-icons/all-files/fa/FaEnvelope'
+import { FaGlobe } from '@react-icons/all-files/fa/FaGlobe'
+import { FaEnvelope } from '@react-icons/all-files/fa/FaEnvelope'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 
@@ -98,7 +98,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Fawebsite />
+            <FaGlobe />
           </a>
         )}
         {config.email && (
@@ -109,7 +109,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Faemail />
+            <FaEnvelope />
           </a>
         )}
 
