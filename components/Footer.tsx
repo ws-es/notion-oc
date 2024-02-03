@@ -89,6 +89,29 @@ export const FooterImpl: React.FC = () => {
             <FaZhihu />
           </a>
         )}
+        
+        {config.website && (
+          <a
+            className={styles.website}
+            href={`${config.website}`}
+            title={`website @${config.zhihu}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Fawebsite />
+          </a>
+        )}
+        {config.email && (
+          <a
+            className={styles.email}
+            href={`${config.email}`}
+            title={`email @${config.email}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Faemail />
+          </a>
+        )}
 
         {config.github && (
           <a

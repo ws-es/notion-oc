@@ -102,6 +102,14 @@
   color: #0066ff;
 }
 
+.website:hover {
+  color: #0066ff;
+}
+
+.email:hover {
+  color: #0066ff;
+}
+
 .github:hover {
   color: #c9510c;
 }
