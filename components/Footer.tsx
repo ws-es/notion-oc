@@ -8,6 +8,8 @@ import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGlobe } from '@react-icons/all-files/fa/FaGlobe'
+import { FaQQ } from '@react-icons/all-files/fa/FaQQ'
+import { Fabilibili } from '@react-icons/all-files/fa/Fabilibili'
 import { FaEnvelope } from '@react-icons/all-files/fa/FaEnvelope'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
@@ -101,6 +103,7 @@ export const FooterImpl: React.FC = () => {
             <FaGlobe />
           </a>
         )}
+        
         {config.email && (
           <a
             className={styles.email}
@@ -110,6 +113,30 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaEnvelope />
+          </a>
+        )}
+
+        {config.bilibili && (
+          <a
+            className={styles.bilibili}
+            href={`https://space.bilibili.com/${config.bilibili}`}
+            title={`bilibili @${config.bilibili}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Fabilibili />
+          </a>
+        )}
+        
+        {config.QQ && (
+          <a
+            className={styles.QQ}
+            href={`https://qm.qq.com/q/${config.QQ}`}
+            title={`email @${config.QQ}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaQQ />
           </a>
         )}
 
