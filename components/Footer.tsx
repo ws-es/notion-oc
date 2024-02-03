@@ -122,7 +122,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaGlobe />
+            <Fabilibili />
           </a>
         )}
 
