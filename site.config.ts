@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   // twitter: '#',
   // github: 'ws-es',
-  bilibili: '687417413',
+  // bilibili: '687417413',
   website: 'www.erat.top',
   email: 'dzxx2020@hotmail.com',
   // linkedin: '#',

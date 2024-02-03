@@ -5,7 +5,6 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
-import { Fabilibili } from '@react-icons/all-files/fa/Fabilibili'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGlobe } from '@react-icons/all-files/fa/FaGlobe'
@@ -112,18 +111,6 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaEnvelope />
-          </a>
-        )}
-
-        {config.bilibili && (
-          <a
-            className={styles.bilibili}
-            href={`https://space.bilibili.com/${config.bilibili}`}
-            title={`bilibili @${config.bilibili}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <Fabilibili />
           </a>
         )}
 
