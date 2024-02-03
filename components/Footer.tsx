@@ -114,18 +114,6 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.bilibili && (
-          <a
-            className={styles.bilibili}
-            href={`https://space.bilibili.com/${config.bilibili}`}
-            title={`bilibili @${config.bilibili}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaTV />
-          </a>
-        )}
-
         {config.github && (
           <a
             className={styles.github}
