@@ -60,7 +60,7 @@ const socialLinks: SocialLink[] = [
 
   config.website && {
     name: 'website',
-    href: `${config.website}`,
+    href: `https://${config.website}`,
     title: `website ${config.author}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
@@ -71,7 +71,7 @@ const socialLinks: SocialLink[] = [
 
   config.email && {
     name: 'email',
-    href: `${config.email}`,
+    href: `mailto:${config.email}`,
     title: `email ${config.author}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>

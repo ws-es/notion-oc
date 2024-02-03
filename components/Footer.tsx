@@ -93,7 +93,7 @@ export const FooterImpl: React.FC = () => {
         {config.website && (
           <a
             className={styles.website}
-            href={`${config.website}`}
+            href={`https://${config.website}`}
             title={`website @${config.zhihu}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -104,7 +104,7 @@ export const FooterImpl: React.FC = () => {
         {config.email && (
           <a
             className={styles.email}
-            href={`${config.email}`}
+            href={`mailto:${config.email}`}
             title={`email @${config.email}`}
             target='_blank'
             rel='noopener noreferrer'
