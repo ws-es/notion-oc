@@ -8,7 +8,7 @@ import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGlobe } from '@react-icons/all-files/fa/FaGlobe'
-import { FaQQ } from '@react-icons/all-files/fa/FaQQ'
+import { FaQq } from '@react-icons/all-files/fa/FaQq'
 import { Fabilibili } from '@react-icons/all-files/fa/Fabilibili'
 import { FaEnvelope } from '@react-icons/all-files/fa/FaEnvelope'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -136,7 +136,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaQQ />
+            <FaQq />
           </a>
         )}
 
