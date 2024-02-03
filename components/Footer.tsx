@@ -117,7 +117,7 @@ export const FooterImpl: React.FC = () => {
         {config.bilibili && (
           <a
             className={styles.bilibili}
-            href={`https://space.bilibili.com/${config.twitter}`}
+            href={`https://space.bilibili.com/${config.bilibili}`}
             title={`bilibili @${config.bilibili}`}
             target='_blank'
             rel='noopener noreferrer'
