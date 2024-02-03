@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: '#',
-  // github: 'ws-es',
+  github: 'ws-es',
   // QQ: '2637726000',
   // bilibili: 'UID:687417413',
   website: 'www.erat.top',
