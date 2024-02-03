@@ -19,8 +19,10 @@ export default siteConfig({
   // social usernames (optional)
   // twitter: '#',
   // github: 'ws-es',
-  QQ: '2637726000'
-  bilibili: 'UID:687417413'
+  // QQ: '2637726000',
+  // bilibili: 'UID:687417413',
+  website: 'www.erat.top',
+  email: 'dzxx2020@hotmail.com',
   // linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
