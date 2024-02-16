@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '时代流明',
+  name: '时代流明wiki',
   domain: 'wiki.erat.top',
   author: '冬至夕雪',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '时代流明设定百科',
 
   // social usernames (optional)
   // twitter: '#',
@@ -29,7 +29,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  // defaultPageIcon: "https://www.erat.top/img/favicon.png",
+  defaultPageIcon: "https://www.erat.top/img/favicon.png",
   // defaultPageCover: "#",
   // defaultPageCoverPosition: 0.5,
 
