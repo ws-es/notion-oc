@@ -29,7 +29,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: "https://www.erat.top/img/favicon.png",
+  // defaultPageIcon: "https://www.erat.top/img/favicon.png",
   // defaultPageCover: "#",
   // defaultPageCoverPosition: 0.5,
 
